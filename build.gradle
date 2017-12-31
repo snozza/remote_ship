@@ -10,4 +10,10 @@ dependencies {
     testCompile 'org.testng:testng:6.8.21'
 }
 
+test {
+    testLogging {
+        exceptionFormat = 'full'
+    }
+}
+
 test.useTestNG()
